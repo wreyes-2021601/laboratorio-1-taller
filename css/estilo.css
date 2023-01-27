@@ -1,0 +1,61 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    background-color: #757575;
+    width: 100%;
+    list-style-type:none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+
+
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-size: larger;
+}
